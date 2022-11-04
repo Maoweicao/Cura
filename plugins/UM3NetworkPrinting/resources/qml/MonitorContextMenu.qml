@@ -23,12 +23,13 @@ Item
     //So compute here the visibility of the menu items, so that we can use it for the visibility of the button.
     property bool sendToTopVisible:
     {
-        if (printJob && printJob.state in ("queued",  "error") && !isAssigned(printJob)) {
-            if (OutputDevice && OutputDevice.queuedPrintJobs[0] && OutputDevice.canWriteOthersPrintJobs) {
-                return OutputDevice.queuedPrintJobs[0].key != printJob.key;
-            }
-        }
-        return false;
+        return printJob
+            && (printJob.state == "queued" || printJob.state == "error")
+            && !isAssigned(printJob)
+            && OutputDevice
+            && OutputDevice.queuedPrintJobs.length > 0
+            && OutputDevice.canWriteOthersPrintJobs
+            && OutputDevice.queuedPrintJobs[0].key != printJob.key;
     }
     
     property bool deleteVisible:
