@@ -25,7 +25,7 @@ Item
     {
         return printJob
             && (printJob.state == "queued" || printJob.state == "error")
-            && !isAssigned(printJob)
+            && isAssigned(printJob)
             && OutputDevice
             && OutputDevice.queuedPrintJobs.length > 0
             && OutputDevice.canWriteOthersPrintJobs
