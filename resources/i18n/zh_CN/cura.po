@@ -164,7 +164,7 @@ msgstr "不支持"
 #: /Users/c.lamboo/ultimaker/Cura/cura/Settings/cura_empty_instance_containers.py:55
 msgctxt "@info:No intent profile selected"
 msgid "Default"
-msgstr "Default"
+msgstr "默认"
 
 #: /Users/c.lamboo/ultimaker/Cura/cura/Settings/MachineManager.py:745
 #: /Users/c.lamboo/ultimaker/Cura/plugins/3MFReader/ThreeMFWorkspaceReader.py:219
@@ -458,7 +458,7 @@ msgstr "未覆盖"
 #: /Users/c.lamboo/ultimaker/Cura/cura/Machines/Models/IntentSelectionModel.py:61
 msgctxt "@label"
 msgid "Default"
-msgstr "Default"
+msgstr "默认"
 
 #: /Users/c.lamboo/ultimaker/Cura/cura/Machines/Models/IntentTranslations.py:14
 #: /Users/c.lamboo/ultimaker/Cura/cura/Machines/Models/IntentCategoryModel.py:45
@@ -479,7 +479,7 @@ msgstr "视觉配置文件用于打印视觉原型和模型，可实现出色的
 #: /Users/c.lamboo/ultimaker/Cura/cura/Machines/Models/IntentSelectionModel.py:70
 msgctxt "@label"
 msgid "Engineering"
-msgstr "Engineering"
+msgstr "工程学"
 
 #: /Users/c.lamboo/ultimaker/Cura/cura/Machines/Models/IntentTranslations.py:19
 #: /Users/c.lamboo/ultimaker/Cura/cura/Machines/Models/IntentCategoryModel.py:50
@@ -634,7 +634,7 @@ msgstr "来自 Digital Factory 的响应缺少重要信息。"
 #: /Users/c.lamboo/ultimaker/Cura/cura/PrinterOutput/UploadMaterialsJob.py:218
 msgctxt "@text:error"
 msgid "Failed to connect to Digital Factory to sync materials with some of the printers."
-msgstr "Failed to connect to Digital Factory to sync materials with some of the printers."
+msgstr "无法连接至 Digital Factory 来同步一些打印机的材料信息。"
 
 #: /Users/c.lamboo/ultimaker/Cura/cura/PrinterOutput/UploadMaterialsJob.py:232
 msgctxt "@text:error"
